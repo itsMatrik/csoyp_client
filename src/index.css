@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #050507;
+  color: #AAACA1;
+  line-height: 1.6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #050507 0%, #362E2D 100%);
+}
+
+/* Кастомные стили для MUI компонентов */
+.MuiAppBar-root {
+  background-color: #362E2D !important;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+.MuiButton-contained {
+  background: linear-gradient(45deg, #E3311D, #C12918) !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.MuiButton-contained:hover {
+  background: linear-gradient(45deg, #C12918, #A02112) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px rgba(227, 49, 29, 0.3) !important;
+}
+
+.MuiCard-root {
+  background: rgba(54, 46, 45, 0.8) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid #7C8685 !important;
+  border-radius: 12px !important;
+  transition: all 0.3s ease !important;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4) !important;
+  border-color: #AAACA1 !important;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root {
+  border-radius: 8px !important;
+  background-color: rgba(124, 134, 133, 0.1) !important;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root fieldset {
+  border-color: #7C8685 !important;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root:hover fieldset {
+  border-color: #AAACA1 !important;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: #E3311D !important;
+}
