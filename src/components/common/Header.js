@@ -210,7 +210,7 @@ const Header = () => {
                   letterSpacing: '-0.5px'
                 }}
               >
-                CSOYP
+                WILDAUTO
               </Typography>
             </Box>
           </Fade>
