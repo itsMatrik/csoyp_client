@@ -80,7 +80,7 @@ const Services = () => {
     setLoading(true);
     setError('');
     try {
-      const res = await fetch('http://localhost:5000/api/mockServices');
+      const res = await fetch('https://csoyp-server.onrender.com/api/mockServices');
       if (!res.ok) throw new Error(`Fetch error ${res.status}`);
       const data = await res.json();
 
