@@ -159,7 +159,7 @@ const Services = () => {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            color: '#FFFFFF',
+            color: '#fafafa',
             position: 'relative',
             overflow: 'hidden'
           }}>
