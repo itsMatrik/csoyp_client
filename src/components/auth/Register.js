@@ -529,7 +529,7 @@ const Register = () => {
                         fontSize: { md: '3rem', lg: '3.5rem' }
                       }}
                     >
-                      CSOYP
+                      WILDAUTO
                     </Typography>
                     
                     <Typography 
@@ -615,7 +615,7 @@ const Register = () => {
                           WebkitTextFillColor: 'transparent'
                         }}
                       >
-                        CSOYP
+                        WILDAUTO
                       </Typography>
                     </Box>
                   )}
@@ -644,7 +644,7 @@ const Register = () => {
                       fontWeight: 400
                     }}
                   >
-                    Присоединяйтесь к CSOYP за несколько простых шагов
+                    Присоединяйтесь к WILDAUTO за несколько простых шагов
                   </Typography>
 
                   {/* Stepper */}
