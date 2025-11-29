@@ -172,7 +172,7 @@ const Login = () => {
                         fontSize: { md: '3rem', lg: '3.5rem' }
                       }}
                     >
-                      CSOYP
+                      WILDAUTO
                     </Typography>
                     
                     <Typography 
@@ -196,7 +196,7 @@ const Login = () => {
                         lineHeight: 1.6
                       }}
                     >
-                      Присоединяйтесь к тысячам автовладельцев, которые уже доверяют обслуживание своих автомобилей CSOYP
+                      Присоединяйтесь к тысячам автовладельцев, которые уже доверяют обслуживание своих автомобилей WILDAUTO
                     </Typography>
 
                     {/* Demo Accounts */}
@@ -306,7 +306,7 @@ const Login = () => {
                           WebkitTextFillColor: 'transparent'
                         }}
                       >
-                        CSOYP
+                        WILDAUTO
                       </Typography>
                     </Box>
                   )}
