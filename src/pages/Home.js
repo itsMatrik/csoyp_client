@@ -200,7 +200,7 @@ const Home = () => {
                       fontWeight: 400
                     }}
                   >
-                    CSOYP — это экосистема для автовладельцев. Находите проверенные сервисы, 
+                    WILDAUTO — это экосистема для автовладельцев. Находите проверенные сервисы, 
                     управляйте обслуживанием и экономьте время на уходе за автомобилем.
                   </Typography>
 
@@ -507,7 +507,7 @@ const Home = () => {
                   fontSize: { xs: '2.5rem', md: '3rem' }
                 }}
               >
-                Почему выбирают <Box component="span" sx={{ color: '#E3311D' }}>CSOYP</Box>?
+                Почему выбирают <Box component="span" sx={{ color: '#E3311D' }}>WILDAUTO</Box>?
               </Typography>
               <Typography 
                 variant="h6" 
